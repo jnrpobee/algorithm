@@ -1,0 +1,47 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: alignment.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/project4_1/alignment.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: main.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "args": [
+                "-n",
+                "10",
+                "--dist",
+                "normal",
+                "--seed",
+                "0"
+            ]
+        },
+        {
+            "name": "Python Debugger: Python File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}"
+        },
+        {
+            "name": "Python: tsp_solve.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/pro5/tsp_solve.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "partial_paths.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/p5/partial_paths.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}

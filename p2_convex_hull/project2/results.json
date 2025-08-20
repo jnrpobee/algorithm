@@ -1,0 +1,32 @@
+{
+    "tests": [
+        {
+            "score": 5,
+            "max_score": 5,
+            "name": "test_convex_hull.py::test_uniform_distribution_small",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 15,
+            "max_score": 15,
+            "name": "test_convex_hull.py::test_uniform_distribution_large",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 5,
+            "max_score": 5,
+            "name": "test_convex_hull.py::test_guassian_distribution_small",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 15,
+            "max_score": 15,
+            "name": "test_convex_hull.py::test_guassian_distribution_large",
+            "output": "\n",
+            "visibility": "visible"
+        }
+    ]
+}

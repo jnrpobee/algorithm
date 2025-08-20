@@ -1,0 +1,44 @@
+
+def find_shortest_path_with_array(
+        graph: dict[int, dict[int, float]],
+        source: int,
+        target: int
+) -> tuple[list[int], float]:
+    """
+    Find the shortest (least-cost) path from `source` to `target` in `graph`
+    using the array-based (linear lookup) algorithm.
+
+    Return:
+        - the list of nodes (including `source` and `target`)
+        - the cost of the path
+    """
+    nodes_to_visit = [(0, source)]
+    distance = {node: float('inf') for node in graph}
+    distance[source] = 0
+    paths = {source: [source]}
+    visited = set()
+
+    while nodes_to_visit:
+        current_distance, current_node = min(nodes_to_visit, key=lambda x: x[0])
+        nodes_to_visit.remove((current_distance, current_node))
+
+        if current_node in visited:
+            continue
+
+        visited.add(current_node)
+
+        if current_node == target:
+            return paths[current_node], current_distance
+
+        for neighbor, weight in graph.get(current_node, {}).items():
+            if neighbor in visited:
+                continue
+
+            new_distance = current_distance + weight
+
+            if new_distance < distance[neighbor]:
+                distance[neighbor] = new_distance
+                nodes_to_visit.append((new_distance, neighbor))
+                paths[neighbor] = paths[current_node] + [neighbor]
+
+    return [], float('inf')

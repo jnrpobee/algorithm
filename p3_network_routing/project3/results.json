@@ -1,0 +1,46 @@
+{
+    "tests": [
+        {
+            "score": 2,
+            "max_score": 2,
+            "name": "test_network_routing.py::test_tiny_network_heap",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 2,
+            "max_score": 2,
+            "name": "test_network_routing.py::test_tiny_network_array",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 5,
+            "max_score": 5,
+            "name": "test_network_routing.py::test_small_network_heap",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 5,
+            "max_score": 5,
+            "name": "test_network_routing.py::test_small_network_array",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 8,
+            "max_score": 8,
+            "name": "test_network_routing.py::test_large_network_heap",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 8,
+            "max_score": 8,
+            "name": "test_network_routing.py::test_large_network_array",
+            "output": "\n",
+            "visibility": "visible"
+        }
+    ]
+}

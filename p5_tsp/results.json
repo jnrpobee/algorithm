@@ -1,0 +1,39 @@
+{
+    "tests": [
+        {
+            "score": 5,
+            "max_score": 5,
+            "name": "test_tsp.py::test_greedy",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 5,
+            "max_score": 5,
+            "name": "test_tsp.py::test_dfs",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 10,
+            "max_score": 10,
+            "name": "test_tsp.py::test_branch_and_bound",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 10,
+            "max_score": 10,
+            "name": "test_tsp.py::test_branch_and_bound_smart",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 5,
+            "max_score": 5,
+            "name": "test_tsp.py::test_extra_credit_branch_and_bound_smart",
+            "output": "\n",
+            "visibility": "visible"
+        }
+    ]
+}
