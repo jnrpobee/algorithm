@@ -4,24 +4,8 @@ p3_network_routing/
 p4_alignment/
 p5_tsp/
 p6_leetcode/
-*.zip >> .gitignore
-echo *.zip >> .gitignore
-
-ls -a
-:qw
-:wq
-cat .gitignore
-cat .gitignore
 
 
-
-
-
-
-
-
-
-echo *.zip
 *.zip
 .zip
 
