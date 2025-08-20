@@ -24,3 +24,5 @@ cat .gitignore
 echo *.zip
 *.zip
 .zip
+
+*.zip
